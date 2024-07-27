@@ -1,11 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>B9A3-Hockeys</title>
-</head>
-<body>
-    <h1>Cheack..</h1>
-</body>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/cfeb93aede.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"/>
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>  
+  </head>
+  <body class="font-manrope">
+    <header>
+        <nav class="container mx-auto lg:px-24 px-6 lg:py-6 py-3">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <a class="text-[#FF4240] font-bold" href="">Home</a>
+                        <a class="text-[#424247]" href="">About</a>
+                        <a class="text-[#424247]" href="">Pages</a>
+                        <a class="text-[#424247]" href="">Blog</a>
+                        <a class="text-[#424247]" href="">Contact</a>
+                      </ul>
+                    </ul>
+                  </div>
+                  <a class="text-[#131318] lg:text-4xl text-2xl font-extrabold ">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="space-x-6">
+                    <a class="text-[#FF4240] font-bold" href="">Home</a>
+                    <a class="text-[#424247]" href="">About</a>
+                    <a class="text-[#424247]" href="">Pages</a>
+                    <a class="text-[#424247]" href="">Blog</a>
+                    <a class="text-[#424247]" href="">Contact</a>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-6">
+                  <div class="hidden lg:flex">
+                    <i class="fa-solid fa-magnifying-glass text-[#89898B]"></i>
+                  </div>
+                  <a class="btn text-[#FFFFFF] bg-[#FF4240] lg:rounded-lg lg:text-xl lg:font-bold">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+       <div class="container mx-auto lg:px-24 px-6 lg:py-6 py-3">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full rounded-2xl bg-cover">
+              <img
+                src="./Images/1.png" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full bg-cover">
+              <img
+                src="./Images/4.png"/>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            
+          </div>
+       </div>
+       <section class="lg:my-24 my-8">
+        <div class="container mx-auto lg:px-24 px-6">
+            <h2 class="text-center lg:text-4xl text-2xl font-extrabold text-[#131318]">Professional Hockeys Club</h2>
+            <p class="text-center font-medium text-[#13131899] mx-auto lg:w-2/3 mt-6">hockey is the competition of ice hockey in which participants are paid to play. Professional competition began in North America in the United States</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:my-16 my-6">
+           <div class="space-y-4 text-center">
+            <div class="radial-progress text-[#FF4240]" style="--value:80;" role="progressbar">87%</div>
+            <h4 class="text-xl font-semibold text-[#131318]">Prayer Facility</h4>
+            <p class="text-[#13131899]">The earliest known instance of hockey players playing publicly for pay occurred in Pittsburgh.</p>
+           </div>
+           <div class="space-y-4 text-center">
+            <div class="radial-progress text-[#49D293]" style="--value:88;" role="progressbar">95%</div>
+            <h4 class="text-xl font-semibold text-[#131318]">Prayer Facility</h4>
+            <p class="text-[#13131899]">The earliest known instance of hockey players playing publicly for pay occurred in Pittsburgh.</p>
+           </div>
+           <div class="space-y-4 text-center">
+            <div class="radial-progress text-[#FFB546]" style="--value:82;" role="progressbar">90%</div>
+            <h4 class="text-xl font-semibold text-[#131318]">Prayer Facility</h4>
+            <p class="text-[#13131899]">The earliest known instance of hockey players playing publicly for pay occurred in Pittsburgh.</p>
+           </div>
+           <div class="space-y-4 text-center">
+            <div class="radial-progress text-[#4C8DF1]" style="--value:78;" role="progressbar">80%</div>
+            <h4 class="text-xl font-semibold text-[#131318]">Prayer Facility</h4>
+            <p class="text-[#13131899]">The earliest known instance of hockey players playing publicly for pay occurred in Pittsburgh.</p>
+           </div>
+        </div>
+    </div>
+       </section>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
 </html>
